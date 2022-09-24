@@ -5,6 +5,6 @@
   name="JVerein Repository">
 
   <plugins name="JVerein">
-     <plugin url="https://github.com/sbuerg/jverein_develop"/>
+     <plugin url="https://sbuerg.github.io/jverein_develop"/>
   </plugins>
 </repository>
