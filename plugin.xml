@@ -3,7 +3,7 @@
         xsi:schemaLocation="http://www.willuhn.de/schema/jameica-plugin http://www.willuhn.de/schema/jameica-plugin-1.2.xsd"
         name="jverein" version="2.8.20.20220924" class="de.jost_net.JVerein.JVereinPlugin">
 
-  <description>OpenSource-Vereinsverwaltung</description>
+  <description>OpenSource-Vereinsverwaltung (Entwickler Version sbuerg)</description>
   <url>https://sbuerg.github.io/jverein_develop/jverein.2.8.20.20220924.zip</url>
   <homepage>https://openjverein.github.io</homepage>
   <license>GPL - http://www.gnu.org/copyleft/gpl.html</license>
