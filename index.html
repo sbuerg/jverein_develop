@@ -22,28 +22,23 @@
         <div class="row">
             <div class="col-md-12">
                 <h2>jVerein Entwickler-Version von sbuerg</h2>
-		<b>24.02.2023 Version 2.8.20.20220924: Bug im Abrechnungslauf</b>
+		<b>27.02.2023 Version 2.8.20.20230225</b>
 		<p>
-		    Es gibt in der Version beim ausführen des Abrechnungslaufs einen Fehler. Die Ausgabe nach Hibiscus führt trotzdem zu einer Dateiausgabe. *arg*
-		    Das soll so nicht sein. An der Prüfung bin ich dran. Bitte Geduld.
+		    Dies ist eine Entwickler-Version des Openjverein Repositories.
+		    Im Umbau der AbrechnungSEPA_hbci4java gab es mehrere Fehler:
+                    - Dateiausgabe Hibicus funktionierte nicht ordnungsgemäß
+                    - Gegenbuchungen wurden nicht erzeugt
+                    
+                    Ein bekanntes Problem ist der Druck der SEPA-Datei (wenn man den Haken setzt)
+                    Diese Funktion funktioniert nicht ordnungsgemäß, die Daten nach PDF konvertiert werden,
+                    setzen aber vorraus, daß die alte obantoo Logik verwendet wird. Dies hab ich noch nicht angepasst.
+                    Bitte daher die XML direkt drucken (bei Ausgabe Datei)  oder aus Hibiscus heraus (bei Ausgabe Hibiscus)
+                    
+                    Der Haken bei Druck der SEPA-Datei sollte daher nicht verwendet werden! 
 		</p>    
 		    
 		    
-                <b>24.09.2022 Inoffizielle Entwickler-Version 2.8.20.20220924 fuer mutige Tester bereitgestellt</b>
-                <p>
-				    Dies ist eine Entwickler-Version! Kein offizielles Release basierend auf der <a href='https://openjverein.github.io/'>Openjverein</a> Version!
-					
-					Meine <a href='https://github.com/openjverein/jverein/pulls'>Pull-Requests</a> wurden bisher nicht gemerged. Ich warte auf die Orga-Teilnehmer, die das
-					durchführen. Ich habe mich dazu entschlossen, Euch eine Vorab-Version zur Verfügung zu stellen.
-					
-					Um in Jameica auf meinen Entwickler-Zweig umzusteigen das Repository <code>https://sbuerg.github.io/jverein_develop</code> hinzufügen.
-					Bitte immer daran denken, vor der Installation ein Backup Eurer Umgebung durchzuführen.
-					
-					Perspektivisch muss es in der openjverein Orga Development Releases geben. Das ganze lässt sich durchaus Automatisieren, aber wie man das genau am 
-					besten (von der Code Pflege, über Pull-Request, über einen Merge bishin zu einem automatisierten Release) am besten durchführt - daran beiße ich mir gerade
-					noch die Zähne aus. 
-		
-                </p>
+
             </div>
         </div>
 
